@@ -34,7 +34,7 @@ function NavBar() {
         {
             key: '4',
             label: (
-                <Link to=''>Link 4</Link>
+                <Link to='/blog'>Blog</Link>
             )
         },
         {

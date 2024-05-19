@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 // import { TypeAnimation } from "react-type-animation"
 const { Title } = Typography
 function Index() {
+
     const image = "/src/images/tet-invet.png";
     return (
         <div>
@@ -32,8 +33,8 @@ function Index() {
                         <p className="w3-small w3-text-grey w3-margin-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem et,
                             possimus ea iure perferendis amet quasi accusantium veritatis. </p>
                         <div className="w3-left w3-margin-top w3-block">
-                            <Button size="large" style={{ backgroundColor: "#1649FF", color: "white", border: "none", }} className="w3-margin-right w3-margin-bottom w3-mobile"><Link to='' className="">Get Started</Link></Button>
-                            <Button size="large" style={{ backgroundColor: "#3E4350", color: "white", border: "none" }} className="w3-mobile"><Link to=''>Learn more</Link></Button>
+                            <Button size="large" style={{ backgroundColor: "#1649FF", color: "white", border: "none", }} className="w3-margin-right w3-margin-bottom w3-mobile"><Link to='/signup' className="">Get Started</Link></Button>
+                            <Button size="large" style={{ backgroundColor: "#3E4350", color: "white", border: "none" }} className="w3-mobile"><Link to='/about'>Learn more</Link></Button>
                         </div>
 
                     </div>
@@ -45,21 +46,21 @@ function Index() {
                 </div>
             </div>
 
-            <div style={{ marginTop: "100px" }}>
+            <div style={{ marginTop: "-100px" }}>
                 <Title level={5} className="w3-text-white" >
-                    <div className="w3-bar">
-                        <ul className="">
-                            <li className="w3-bar-item w3-left w3-large w3-mobile "> Featured on:</li>
-                            <li className="w3-bar-item w3-right w3-mobile  w3-medium w3-text-grey w3-hoverable "><i> Twitch</i></li>
-                            <li className="w3-bar-item w3-right w3-mobile  w3-medium w3-text-grey"><i className="fa fa-pinterest w3-text-grey"> Pinterest</i></li>
-                            <li className="w3-bar-item w3-right w3-mobile  w3-medium w3-text-grey"><i className="fa fa-youtube-play w3-text-grey"> YouTube</i></li>
-                            <li className="w3-bar-item w3-right w3-mobile  w3-medium w3-text-grey"><i className="fa fa-facebook-f w3-text-grey"> Facebook</i></li>
-                            <li className="w3-bar-item w3-right w3-mobile  w3-medium w3-text-grey"><i className="fa fa-google w3-text-grey"> Google</i></li>
+                    <div className="w3-cell-row">
+                        <ul className="w3-decoration ">
+                            <li className=" w3-left w3-large w3-cell w3-container "> Featured on:</li>
+                            <li className="w3-right  w3-cell w3-container w3-medium w3-text-grey "><i> Twitch</i></li>
+                            <li className=" w3-right w3-cell w3-container w3-medium w3-text-grey"><i className="fa fa-pinterest w3-text-grey"> Pinterest</i></li>
+                            <li className=" w3-right  w3-cell w3-container w3-medium w3-text-grey"><i className="fa fa-youtube-play w3-text-grey"> YouTube</i></li>
+                            <li className="w3-right  w3-cell w3-container w3-medium w3-text-grey"><i className="fa fa-facebook-f w3-text-grey"> Facebook</i></li>
+                            <li className=" w3-right  w3-cell w3-container w3-medium w3-text-grey"><i className="fa fa-google w3-text-grey"> Google</i></li>
                         </ul>
                     </div>
                 </Title>
             </div>
-            <Title level={4} className="w3-text-white">
+            <Title level={4} className="w3-text-white" style={{ marginTop: "250px" }}>
                 <div className="w3-bar">
                     <div className="w3-bar-item">
                         <b>Why INVET Is For You?</b>
@@ -70,7 +71,7 @@ function Index() {
             <div>
                 <div className="w3-row-padding w3-margin-top">
                     <div className="w3-third">
-                        <div className=" w3-container w3-padding w3-margin-bottom w3-card card-color w3-round-xlarge">
+                        <div className=" w3-container w3-pop-up w3-padding w3-margin-bottom w3-card card-color w3-round-xlarge">
                             <div className="w3-center ">
                                 <i className="fa fa-briefcase w3-xlarge w3-padding w3-circle w3-margin color-blue"></i>
                             </div>
@@ -83,9 +84,9 @@ function Index() {
                         </div>
                     </div>
                     <div className="w3-third">
-                        <div className=" w3-container w3-padding w3-margin-bottom w3-card card-color w3-round-xlarge">
+                        <div className=" w3-container w3-padding w3-pop-up w3-margin-bottom w3-card card-color w3-round-xlarge">
                             <div className="w3-center ">
-                                <i className="fa fa-send w3-xlarge w3-padding w3-circle w3-margin color-blue"></i>
+                                <i className="fa fa-exchange w3-xlarge w3-padding w3-circle w3-margin color-blue"></i>
                             </div>
                             <div className="w3-text-white w3-center w3-margin-bottom">
                                 <b>Send & receive anytime</b>
@@ -96,7 +97,7 @@ function Index() {
                         </div>
                     </div>
                     <div className="w3-third">
-                        <div className=" w3-container w3-padding w3-margin-bottom w3-card card-color w3-round-xlarge">
+                        <div className=" w3-container w3-padding w3-pop-up w3-margin-bottom w3-card card-color w3-round-xlarge">
                             <div className="w3-center ">
                                 <i className="fa fa-line-chart w3-xlarge w3-padding w3-circle w3-margin color-blue"></i>
                             </div>
@@ -112,7 +113,7 @@ function Index() {
                 </div>
                 <div className="w3-row-padding w3-margin-top">
                     <div className="w3-third">
-                        <div className=" w3-container w3-padding w3-margin-bottom w3-card card-color w3-round-xlarge">
+                        <div className=" w3-container w3-padding w3-pop-up w3-margin-bottom w3-card card-color w3-round-xlarge">
                             <div className="w3-center ">
                                 <i className="fa fa-rotate-right w3-xlarge w3-padding w3-circle w3-margin color-blue"></i>
                             </div>
@@ -125,7 +126,7 @@ function Index() {
                         </div>
                     </div>
                     <div className="w3-third">
-                        <div className=" w3-container w3-padding w3-margin-bottom w3-card card-color w3-round-xlarge">
+                        <div className=" w3-container w3-padding w3-pop-up w3-margin-bottom w3-card card-color w3-round-xlarge">
                             <div className="w3-center ">
                                 <i className="fa fa-shield w3-xlarge w3-padding w3-circle w3-margin color-blue"></i>
                             </div>
@@ -138,7 +139,7 @@ function Index() {
                         </div>
                     </div>
                     <div className="w3-third">
-                        <div className=" w3-container w3-padding w3-margin-bottom w3-card card-color w3-round-xlarge">
+                        <div className=" w3-container w3-padding w3-pop-up w3-margin-bottom w3-card card-color w3-round-xlarge">
                             <div className="w3-center ">
                                 <i className="fa fa-commenting-o w3-xlarge w3-padding w3-circle w3-margin color-blue"></i>
                             </div>
@@ -154,8 +155,8 @@ function Index() {
             </div>
             <div className="w3-center">
                 <div className="w3-container w3-margin-top w3-block">
-                    <Button size="large" style={{ backgroundColor: "#1649FF", color: "white", border: "none", }} className="w3-margin-right w3-margin-bottom w3-mobile"><Link to='' className="">Get Started</Link></Button>
-                    <Button size="large" style={{ backgroundColor: "#3E4350", color: "white", border: "none" }} className="w3-mobile"><Link to=''>Learn more</Link></Button>
+                    <Button size="large" style={{ backgroundColor: "#1649FF", color: "white", border: "none", }} className="w3-margin-right w3-margin-bottom w3-mobile"><Link to='/signup' className="">Get Started</Link></Button>
+                    <Button size="large" style={{ backgroundColor: "#3E4350", color: "white", border: "none" }} className="w3-mobile"><Link to='about'>Learn more</Link></Button>
                 </div>
             </div>
         </div>

@@ -7,6 +7,7 @@ import Pricing from "./pages/Pricing"
 import Contact from "./pages/Contact"
 import Cart from "./pages/Cart"
 import NotFound from "./pages/NotFound"
+import Blog from "./pages/Blog"
 
 function Routers() {
     return (
@@ -32,7 +33,10 @@ function Routers() {
                     path="/cart"
                     element={<Cart />}
                 />
-
+                <Route
+                    path="/blog"
+                    element={<Blog />}
+                />
 
                 <Route
                     path="*"

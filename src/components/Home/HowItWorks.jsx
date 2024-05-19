@@ -19,26 +19,26 @@ function HowItWorks() {
     const items = [
         {
             key: '1',
-            label: <span className="w3-text-white"><i className="fa fa-user w3-large w3-padding w3-badge color-blue"></i> <b>Create and account</b></span>,
+            label: <span className="w3-text-white"><i className="fa fa-user w3-large w3-padding w3-badge color-blue"></i> <b>Create an account</b></span>,
             children: <p className="w3-text-grey">{text}</p>,
 
         },
 
         {
             key: '2',
-            label: <span className="w3-text-white"><i className="fa fa-bank w3-large w3-padding w3-badge color-blue"></i> <b>Transfer your funds</b></span>,
+            label: <span className="w3-text-white"><i className="fa fa-exchange w3-large w3-padding w3-badge color-blue"></i> <b>Transfer your funds</b></span>,
             children: <p className="w3-text-grey">{text}</p>,
 
         },
         {
             key: '3',
-            label: <span className="w3-text-white"><i className="fa fa-btc w3-large w3-padding w3-badge color-blue "></i> <b>Earn passive interest everyday</b></span>,
+            label: <span className="w3-text-white"><i className="fa fa-dollar w3-large w3-padding w3-badge color-blue "></i> <b>Earn passive interest everyday</b></span>,
             children: <p className="w3-text-grey">{text}</p>,
         },
     ];
     return (
         <div className="w3-container">
-            <div className="w3-center" style={{ marginTop: "150px", marginBottom: "70px" }}>
+            <div className="w3-center" style={{ marginTop: "250px", marginBottom: "70px" }}>
                 <Title level={3} className="w3-text-white">
                     <b>How it works</b>
                 </Title>
@@ -46,7 +46,7 @@ function HowItWorks() {
             </div>
             <div className="w3-row-padding w3-margin-top">
                 <div className="w3-half">
-                    <div className="w3-center w3-card card-color w3-round-xlarge ">
+                    <div className="w3-center w3-pop-up w3-card card-color w3-round-xlarge ">
                         <div className="w3-padding-16 w3-margin">
                             <img src={avatar} alt="image" width={"70%"} height="70%" className="w3-image" />
                         </div>
