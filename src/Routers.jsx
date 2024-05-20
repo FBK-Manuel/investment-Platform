@@ -8,6 +8,7 @@ import Contact from "./pages/Contact"
 import Cart from "./pages/Cart"
 import NotFound from "./pages/NotFound"
 import Blog from "./pages/Blog"
+import Post from "./components/blog/Post"
 
 function Routers() {
     return (
@@ -36,6 +37,10 @@ function Routers() {
                 <Route
                     path="/blog"
                     element={<Blog />}
+                />
+                <Route
+                    path="/post"
+                    element={<Post />}
                 />
 
                 <Route

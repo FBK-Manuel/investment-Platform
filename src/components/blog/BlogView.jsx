@@ -1,36 +1,14 @@
 // import React from 'react'
 
 import { RightOutlined } from "@ant-design/icons"
-import { Button, notification } from "antd"
-import { useState } from "react"
+import { Button } from "antd"
 import { Link } from "react-router-dom"
+import SubscribeMail from "../SubscribeMail"
 
 function BlogView() {
 
     const image1 = "/src/images/te.jpg"
-    const [email, setEmail] = useState("");
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        try {
-            if (email) {
-                notification.success({
-                    message: "Successfully Submiited",
-                    description: "Your email has been submitted successfully"
-                })
-                // console.log("success");
-            } else {
-                notification.error({
-                    message: "Failed Request",
-                    description: "Something went wrong, could be the field is empty"
-                })
-                // console.log("cant explain this")
-            }
-        } catch (error) {
-            console.log(error)
-        }
-        setEmail("")
-    }
 
     return (
         <div >
@@ -52,7 +30,7 @@ function BlogView() {
                             <div className="w3-cell w3-container">
                                 <p className="w3-text-grey"><i className="fa fa-clock-o"></i> 4 min read</p>
                             </div>
-                            <h4 className="w3-text-white w3-container w3-margin-bottom"><b>What is NFT (Non-Fungible Token) and how can i buy one</b></h4>
+                            <h4 className="w3-text-white w3-container w3-margin-bottom"><b><Link to="/post" className="w3-decoration">What is NFT (Non-Fungible Token) and how can i buy one</Link></b></h4>
 
                         </div>
                     </div>
@@ -229,34 +207,8 @@ function BlogView() {
             <div className="w3-center w3-container w3-margin-top w3-padding-large">
                 <Button size="large" className="color-blue w3-border-0" style={{ width: "200px" }} >Next <RightOutlined /></Button>
             </div>
-
-            <div className=" w3-round-xlarge color-blue" style={{ marginTop: "100px" }}>
-                <div className="w3-row-padding">
-                    <div className="w3-half w3-margin-top w3-container w3-padding">
-                        <h3 className=""><b>Subscribe to our email newsletter today!</b></h3>
-                    </div>
-                    <div className="w3-half w3-container w3-padding-16">
-                        {/* <div className="search-container color-blue w3-margin-top "> */}
-                        <form className="search-container w3-margin-top w3-margin-bottom color-blue" onSubmit={handleSubmit} action="">
-                            <input
-                                type="email"
-                                name="email"
-                                id="email"
-                                value={email}
-                                className="w3-input w3-border-0 w3-padding w3-round-large color-blue"
-                                onChange={(e) => setEmail(e.target.value)}
-                                placeholder="Enter your email address..."
-                            />
-                            <button
-                                type="submit"
-                                className="w3-button w3-round w3-hover-white w3-border-0"
-                            >
-                                <i className="fa fa-send"></i>
-                            </button>
-                        </form>
-                        {/* </div>/ */}
-                    </div>
-                </div>
+            <div className="w3-container">
+                <SubscribeMail />
             </div>
         </div>
     )

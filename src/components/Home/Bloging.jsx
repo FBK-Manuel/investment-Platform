@@ -20,10 +20,10 @@ function Bloging() {
 
                     <div className="w3-half">
                         <div className="w3-right w3-hide-small ">
-                            <Button size="large" style={{ backgroundColor: "#3E4350", color: "white", border: "none" }} className="w3-mobile"><Link to='/blog'>Browse article</Link></Button>
+                            <Button size="large" style={{ backgroundColor: "#3E4350", color: "white", border: "none" }} className="w3-mobile"><Link to='/blog'>Browse articles</Link></Button>
                         </div>
                         <div className="  w3-hide-large w3-hide-medium">
-                            <Button size="large" style={{ backgroundColor: "#3E4350", color: "white", border: "none" }} className="w3-mobile"><Link to='/blog'>Browse article</Link></Button>
+                            <Button size="large" style={{ backgroundColor: "#3E4350", color: "white", border: "none" }} className="w3-mobile"><Link to='/blog'>Browse articles</Link></Button>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ function Bloging() {
                             <p className="w3-medium"><strong>What is an INVET Token(Non-Fungible Token), and how you can buy one.</strong></p>
                         </div>
                         <div className="w3-container" style={{ paddingBottom: "50px" }} >
-                            <Link className="w3-decoration w3-hover-text-blue" to="#">Read More <RightOutlined /></Link>
+                            <Link className="w3-decoration w3-hover-text-blue" to="/post">Read More <RightOutlined /></Link>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@ function Bloging() {
                             <p className="w3-medium"><strong>6 great crypto wallets you should try to keep your crypto assets secure</strong></p>
                         </div>
                         <div className="w3-container" style={{ paddingBottom: "50px" }} >
-                            <Link className="w3-decoration w3-hover-text-blue" to="#">Read More <RightOutlined /></Link>
+                            <Link className="w3-decoration w3-hover-text-blue" to="/post">Read More <RightOutlined /></Link>
                         </div>
                     </div>
                 </div>
