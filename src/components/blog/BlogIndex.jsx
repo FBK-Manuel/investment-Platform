@@ -11,7 +11,7 @@ function BlogIndex() {
                     <div className="w3-half">
                         <div className="">
                             <div className="search-container">
-                                <div className="w3-">
+                                <div className="">
                                     <button className="card-color w3-border-0" type="submit"><i className="fa fa-search "></i></button>
                                 </div>
                                 <input

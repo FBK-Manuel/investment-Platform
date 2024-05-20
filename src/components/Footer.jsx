@@ -15,7 +15,7 @@ function Footer() {
         e.preventDefault();
         try {
             if (email) {
-                console.log("submited successfully", email)
+                // console.log("submited successfully", email)
                 notification.success({
                     message: "Newsletter Subscription",
                     description: "Your have successfully subscribe to our newsletter"
@@ -28,7 +28,7 @@ function Footer() {
                 })
                 setError("This field is left blank!")
                 setError("")
-                console.log("error")
+                // console.log("error")
             }
             setEmail("")
 
@@ -39,7 +39,7 @@ function Footer() {
     }
     return (
         <div>
-            <div style={{ marginTop: "250px" }}>
+            <div style={{ marginTop: "100px" }}>
                 <hr />
             </div>
             <div className="w3-container w3-content" style={{ maxWidth: "1200px" }}>
