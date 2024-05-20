@@ -1,10 +1,10 @@
 // import React from 'react'
 
 function Founders() {
-    const image1 = "/src/images/testimony/man_hat.jpg"
-    const image2 = "/src/images/testimony/jane.jpg"
-    const image3 = "/src/images/testimony/avatar_hat.jpg"
-    const image4 = "/src/images/testimony/img_man.jpg"
+    const image1 = "/images/testimony/man_hat.jpg"
+    const image2 = "/images/testimony/jane.jpg"
+    const image3 = "/images/testimony/avatar_hat.jpg"
+    const image4 = "/images/testimony/img_man.jpg"
     return (
         <div className="margin-top">
             <div className="w3-row-padding">

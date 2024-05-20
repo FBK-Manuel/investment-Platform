@@ -10,7 +10,7 @@ import { useState } from "react";
 
 function NavBar() {
 
-    const logo = "/src/images/logo/invetLogo.png";
+    const logo = "/images/logo/invetLogo.png";
 
     const items = [
         {
@@ -134,7 +134,7 @@ function NavBar() {
                     <div className="w3-bar">
                         <div className="w3-margin">
                             <img
-                                src="/src/images/logo/invetLogo.png"
+                                src="/images/logo/invetLogo.png"
                                 className="w3-bar-item"
                                 alt="logo"
                                 width="50px"

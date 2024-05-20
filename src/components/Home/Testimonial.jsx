@@ -26,13 +26,13 @@ function Testimonial() {
         pauseOnHover: true
     };
 
-    const btc = "/src/images/testimony/img_man.jpg";
-    const eth = "/src/images/testimony/img_parallax3.jpg";
-    const doge = "/src/images/testimony/jane.jpg";
-    const lith = "/src/images/testimony/people1.jpg";
-    const xcoin = "/src/images/testimony/team1.jpg";
-    const cardino = "/src/images/testimony/team4.jpg";
-    // const phone = "/src/images/fone.png";
+    const btc = "/images/testimony/img_man.jpg";
+    const eth = "/images/testimony/img_parallax3.jpg";
+    const doge = "/images/testimony/jane.jpg";
+    const lith = "/images/testimony/people1.jpg";
+    const xcoin = "/images/testimony/team1.jpg";
+    const cardino = "/images/testimony/team4.jpg";
+    // const phone = "/images/fone.png";
     const { Title } = Typography
     return (
         <div>

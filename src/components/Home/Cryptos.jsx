@@ -28,13 +28,13 @@ function Cryptos() {
     };
 
     const { Title } = Typography
-    const btc = "/src/images/bitc.png";
-    const eth = "/src/images/eth.png";
-    const doge = "/src/images/dodge.png";
-    const lith = "/src/images/lith.png";
-    const xcoin = "/src/images/xc.png";
-    const cardino = "/src/images/cardano.png";
-    const phone = "/src/images/fone.png";
+    const btc = "/images/bitc.png";
+    const eth = "/images/eth.png";
+    const doge = "/images/dodge.png";
+    const lith = "/images/lith.png";
+    const xcoin = "/images/xc.png";
+    const cardino = "/images/cardano.png";
+    const phone = "/images/fone.png";
 
 
 

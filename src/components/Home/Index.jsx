@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const { Title } = Typography
 function Index() {
 
-    const image = "/src/images/tet-invet.png";
+    const image = "/images/tet-invet.png";
     return (
         <div>
             <div className="w3-hide-large"></div>

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 
 function Footer() {
-    const logo = "/src/images/logo/invetLogo.png"
+    const logo = "/images/logo/invetLogo.png"
     const [email, setEmail] = useState("");
     const [error, setError] = useState("");
     const [success, setSuccess] = useState("");

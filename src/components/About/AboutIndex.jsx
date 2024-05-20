@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const { Title } = Typography;
 function AboutIndex() {
 
-    const globe = "/src/images/globe.png"
+    const globe = "/images/globe.png"
     return (
         <>
             <div className="" style={{ marginTop: "250px" }}>

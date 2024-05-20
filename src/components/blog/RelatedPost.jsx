@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 
 function RelatedPost() {
     const { Title } = Typography
-    const image1 = "/src/images/te.jpg"
+    const image1 = "/images/te.jpg"
     // const image2 = "/src/images/tet-invet.png";
 
     return (

@@ -7,7 +7,7 @@ import SubscribeMail from "../SubscribeMail"
 
 function BlogView() {
 
-    const image1 = "/src/images/te.jpg"
+    const image1 = "/images/te.jpg"
 
 
     return (

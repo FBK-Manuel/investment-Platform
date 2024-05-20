@@ -4,7 +4,7 @@ import { Collapse } from 'antd';
 // import React from 'react'
 function HowItWorks() {
     const { Title } = Typography
-    const avatar = "/src/images/avatah.png";
+    const avatar = "/images/avatah.png";
 
     const text = "A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world."
 

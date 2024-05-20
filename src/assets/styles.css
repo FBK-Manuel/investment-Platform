@@ -56,7 +56,7 @@ color: #1649ff;
 }
 
 .background-image {
-  background-image: url("/src/images/globee.png");
+  background-image: url("/images/globee.png");
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: right; /* Centers the image within the container */
   background-size: cover; /* Ensures the image covers the entire container */

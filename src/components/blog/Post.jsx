@@ -4,8 +4,8 @@ import SubscribeMail from "../SubscribeMail"
 import RelatedPost from "./RelatedPost"
 
 function Post() {
-    const image1 = "/src/images/te.jpg"
-    const image3 = "/src/images/testimony/avatar_hat.jpg"
+    const image1 = "/images/te.jpg"
+    const image3 = "/images/testimony/avatar_hat.jpg"
     return (
         <div className="w3-content" style={{ marginTop: "100px", maxWidth: "1200px" }}>
             {/* <!-- Grid --> */}
