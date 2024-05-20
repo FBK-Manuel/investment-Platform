@@ -104,7 +104,7 @@ function NavBar() {
             {/* for the small screen responsiveness */}
             <div className="w3-hide-large">
                 <div className="card-color w3-top">
-                    <div className="w3-sidebar w3-card-4 w3-bar-block w3-animate-left " style={{ display: 'none', zIndex: 5, backgroundColor: "#1D263B" }} id="mySidebar">
+                    <div className="w3-sidebar w3-round w3-card-4 w3-bar-block w3-animate-left " style={{ display: 'none', zIndex: 5, backgroundColor: "#1D263B" }} id="mySidebar">
                         {inActive && (
                             <div className="">
                                 <button className=" w3-right w3-btn w3-round-xxlarge w3-xxlarge" onClick={close}> &times;</button>
