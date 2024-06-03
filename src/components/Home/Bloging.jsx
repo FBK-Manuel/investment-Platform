@@ -14,22 +14,22 @@ function Bloging() {
                 <div className="w3-row-padding">
                     <div className="w3-half">
                         <Title level={2} className="w3-container">
-                            <b className="w3-text-white">Native integrated with most <br /> popular cryptocurrency</b>
+                            <b data-aos="fade-up" className="w3-text-white">Native integrated with most <br /> popular cryptocurrency</b>
                         </Title>
                     </div>
 
                     <div className="w3-half">
-                        <div className="w3-right w3-hide-small ">
+                        <div data-aos="fade-up" className="w3-right w3-hide-small ">
                             <Button size="large" style={{ backgroundColor: "#3E4350", color: "white", border: "none" }} className="w3-mobile"><Link to='/blog'>Browse articles</Link></Button>
                         </div>
-                        <div className="  w3-hide-large w3-hide-medium">
+                        <div data-aos="fade-up" className="  w3-hide-large w3-hide-medium">
                             <Button size="large" style={{ backgroundColor: "#3E4350", color: "white", border: "none" }} className="w3-mobile"><Link to='/blog'>Browse articles</Link></Button>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="w3-row-padding">
-                <div className="w3-half w3-margin-top">
+                <div data-aos="fade-up" className="w3-half  w3-margin-top">
                     <div className="w3-card-4 w3-pop-up color-dark-blue w3-round-xlarge">
                         <div className="w3-margin-top ">
                             <img src={image1} alt="image" className="w3-round-xlarge w3-image" width="100%" />
@@ -50,7 +50,7 @@ function Bloging() {
                         </div>
                     </div>
                 </div>
-                <div className="w3-half w3-margin-top">
+                <div data-aos="fade-up" className="w3-half w3-margin-top">
                     <div className="w3-card-4 w3-pop-up color-dark-blue w3-round-xlarge">
                         <div className="w3-margin-top ">
                             <img src={image1} alt="image" className="w3-round-xlarge w3-image" width="100%" />

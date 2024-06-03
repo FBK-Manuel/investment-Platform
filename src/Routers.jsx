@@ -9,11 +9,16 @@ import Cart from "./pages/Cart"
 import NotFound from "./pages/NotFound"
 import Blog from "./pages/Blog"
 import Post from "./components/blog/Post"
+import Signup from "./pages/Signup"
+import Login from "./pages/Login"
+import SignupVerify from "./components/subcomponent/SignupVerify"
+
 
 function Routers() {
     return (
         <div>
-            <Routes>
+
+            <Routes scrollRestoration="top">
                 <Route
                     path="/"
                     element={<Home />}
@@ -41,6 +46,20 @@ function Routers() {
                 <Route
                     path="/post"
                     element={<Post />}
+                />
+                <Route
+                    path="/signup"
+                    element={<Signup />}
+                />
+
+                <Route
+                    path="/login"
+                    element={<Login />}
+                />
+
+                <Route
+                    path="/signup/verified"
+                    element={<SignupVerify />}
                 />
 
                 <Route

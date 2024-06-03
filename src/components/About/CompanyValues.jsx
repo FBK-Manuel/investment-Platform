@@ -1,12 +1,23 @@
 // import React from 'react'
 
 import { Typography } from "antd"
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function CompanyValues() {
     const { Title } = Typography;
+    useEffect(() => {
+        AOS.init({
+            disable: 'phone', // Disable animations on phones
+            duration: 700, // Duration of the animation in ms
+            easing: 'ease-out-cubic', // Easing function to use
+        });
+
+    }, [])
     return (
         <>
-            <div  >
+            <div data-aos="fade-up" >
                 <div className="w3-center margin-top">
                     <Title level={4} className="w3-text-white">
                         <b>The values that drive our company</b>

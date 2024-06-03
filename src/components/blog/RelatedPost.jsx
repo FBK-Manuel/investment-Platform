@@ -14,13 +14,13 @@ function RelatedPost() {
             <div style={{ marginTop: "250px" }}>
                 <div className="">
                     <div className="w3-row-padding">
-                        <div className="w3-half">
+                        <div data-aos="fade-up" className="w3-half">
                             <Title level={2} className="w3-container">
                                 <b className="w3-text-white">Related Posts</b>
                             </Title>
                         </div>
 
-                        <div className="w3-half">
+                        <div data-aos="fade-up" className="w3-half">
                             <div className="w3-right w3-hide-small ">
                                 <Button size="large" style={{ backgroundColor: "#3E4350", color: "white", border: "none" }} className="w3-mobile"><Link to='/blog'>Browse articles</Link></Button>
                             </div>
@@ -31,7 +31,7 @@ function RelatedPost() {
                     </div>
                 </div>
                 <div className="w3-row-padding">
-                    <div className="w3-half w3-margin-top">
+                    <div data-aos="fade-up" className="w3-half w3-margin-top">
                         <div className="w3-card-4 w3-pop-up color-dark-blue w3-round-xlarge">
                             <div className="w3-margin-top ">
                                 <img src={image1} alt="image" className="w3-round-xlarge w3-image" width="100%" />
@@ -52,7 +52,7 @@ function RelatedPost() {
                             </div>
                         </div>
                     </div>
-                    <div className="w3-half w3-margin-top">
+                    <div data-aos="fade-up" className="w3-half w3-margin-top">
                         <div className="w3-card-4 w3-pop-up color-dark-blue w3-round-xlarge">
                             <div className="w3-margin-top ">
                                 <img src={image1} alt="image" className="w3-round-xlarge w3-image" width="100%" />

@@ -10,7 +10,7 @@ function Index() {
     return (
         <div>
             <div className="w3-hide-large"></div>
-            <div className=" w3-row-padding">
+            <div data-aos="fade-up" className=" w3-row-padding">
                 <div className="w3-half">
                     <div style={{ paddingTop: "170px" }}>
                         <Title level={2} className="w3-text-white" style={{ fontSize: "3em" }}>
@@ -61,7 +61,7 @@ function Index() {
                 </Title>
             </div>
             <Title level={4} className="w3-text-white" style={{ marginTop: "250px" }}>
-                <div className="w3-bar">
+                <div data-aos="fade-up" className="w3-bar">
                     <div className="w3-bar-item">
                         <b>Why INVET Is For You?</b>
                     </div>
@@ -69,7 +69,7 @@ function Index() {
                 </div>
             </Title>
             <div>
-                <div className="w3-row-padding w3-margin-top">
+                <div data-aos="fade-up" className="w3-row-padding w3-margin-top">
                     <div className="w3-third">
                         <div className=" w3-container w3-pop-up w3-padding w3-margin-bottom w3-card card-color w3-round-xlarge">
                             <div className="w3-center ">
@@ -111,7 +111,7 @@ function Index() {
                     </div>
 
                 </div>
-                <div className="w3-row-padding w3-margin-top">
+                <div data-aos="fade-up" className="w3-row-padding w3-margin-top">
                     <div className="w3-third">
                         <div className=" w3-container w3-padding w3-pop-up w3-margin-bottom w3-card card-color w3-round-xlarge">
                             <div className="w3-center ">
@@ -153,7 +153,7 @@ function Index() {
                     </div>
                 </div>
             </div>
-            <div className="w3-center">
+            <div data-aos="fade-up" className="w3-center">
                 <div className="w3-container w3-margin-top w3-block">
                     <Button size="large" style={{ backgroundColor: "#1649FF", color: "white", border: "none", }} className="w3-margin-right w3-margin-bottom w3-mobile"><Link to='/signup' className="">Get Started</Link></Button>
                     <Button size="large" style={{ backgroundColor: "#3E4350", color: "white", border: "none" }} className="w3-mobile"><Link to='about'>Learn more</Link></Button>

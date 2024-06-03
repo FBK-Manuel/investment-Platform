@@ -37,7 +37,7 @@ function Testimonial() {
     return (
         <div>
             <div className="w3-container">
-                <div className="" style={{ marginTop: "250px" }}>
+                <div data-aos="fade-up" className="" style={{ marginTop: "250px" }}>
                     <Row>
                         <Col span={24}>
                             <Title level={2} className="w3-center">
@@ -49,7 +49,7 @@ function Testimonial() {
                     </Row>
                 </div>
 
-                <div className="slider-container w3-margin-top w3-hide-small w3-hide-medium">
+                <div data-aos="fade-up" className="slider-container w3-margin-top w3-hide-small w3-hide-medium">
                     <Slider {...large}>
 
                         <div className="">
@@ -183,7 +183,7 @@ function Testimonial() {
 
 
                 {/* On small screen */}
-                <div className="w3-hide-large">
+                <div data-aos="fade-up" className="w3-hide-large">
                     <Slider {...small}>
                         <div className="">
                             <div className="w3-card-2 card-color w3-round-xlarge">
@@ -309,7 +309,7 @@ function Testimonial() {
                         </div>
                     </Slider>
                 </div>
-                <div className="w3-margin-bottom w3-margin w3-center">
+                <div data-aos="fade-up" className="w3-margin-bottom w3-margin w3-center">
                     <Button size="large" className="color-blue w3-margin-right w3-border-0 "><Link to='/signup'>Get started</Link></Button>
                     <Button size="large" className="color-grey w3-border-0"><Link to='/about'>How it works</Link></Button>
                 </div>

@@ -10,7 +10,7 @@ function AboutIndex() {
     return (
         <>
             <div className="" style={{ marginTop: "250px" }}>
-                <div>
+                <div data-aos="fade-up">
                     <div className="background-image">
                         <Title level={2} className="w3-xxxlarge w3-text-white">
                             <b>  We are on a mission to <br /> democratize investment to <br /> all crypto holders</b>
@@ -67,7 +67,7 @@ function AboutIndex() {
                         </div>
                     </div>
 
-                    <div className="w3-row-padding" style={{ marginTop: "250px" }}>
+                    <div data-aos="fade-up" className="w3-row-padding" style={{ marginTop: "250px" }}>
                         <div className="w3-half ">
                             <img src={globe} alt="image" className="w3-image w3-container w3-left" width="100%" />
                         </div>

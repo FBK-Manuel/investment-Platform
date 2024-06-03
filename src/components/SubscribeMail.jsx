@@ -31,10 +31,10 @@ function SubscribeMail() {
         <div>
             <div className=" w3-round-xlarge color-blue" style={{ marginTop: "100px" }}>
                 <div className="w3-row-padding">
-                    <div className="w3-half w3-margin-top w3-container w3-padding">
+                    <div data-aos="fade-up" className="w3-half w3-margin-top w3-container w3-padding">
                         <h3 className=""><b>Subscribe to our email newsletter today!</b></h3>
                     </div>
-                    <div className="w3-half w3-container w3-padding-16">
+                    <div data-aos="fade-up" className="w3-half w3-container w3-padding-16">
                         {/* <div className="search-container color-blue w3-margin-top "> */}
                         <form className="search-container w3-margin-top w3-margin-bottom color-blue" onSubmit={handleSubmit} action="">
                             <input

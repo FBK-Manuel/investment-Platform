@@ -41,7 +41,7 @@ function Cryptos() {
     return (
         <div className="w3-container">
             <div className="" style={{ marginTop: "250px" }}>
-                <div className="w3-row-padding">
+                <div data-aos="fade-up" className="w3-row-padding">
                     <div className="w3-half">
                         <Title level={2}>
                             <b className="w3-text-white">Native integrated with most <br /> popular cryptocurrency</b>
@@ -59,7 +59,7 @@ function Cryptos() {
                 </div>
             </div>
 
-            <div className="slider-container w3-margin-top w3-hide-small w3-hide-medium">
+            <div data-aos="fade-up" className="slider-container w3-margin-top w3-hide-small w3-hide-medium">
                 <Slider {...action}>
 
                     <div className="">
@@ -208,7 +208,7 @@ function Cryptos() {
 
 
             {/* On small screen */}
-            <div className="w3-hide-large">
+            <div data-aos="fade-up" className="w3-hide-large">
                 <Slider {...small}>
                     <div className="">
                         <div className="w3-card-2 card-color w3-round-xlarge">
@@ -354,7 +354,7 @@ function Cryptos() {
 
             <div className="w3-container " style={{ marginTop: "250px" }}>
                 <div className="color-light-blue w3-round-xxlarge w3-padding w3-margin">
-                    <div className="w3-row-padding">
+                    <div data-aos="fade-up" className="w3-row-padding">
                         <div className="w3-half">
                             <div className="w3-left" style={{ marginTop: "50px" }}>
                                 <img src={phone} alt="image" width="100%" height="100%" />

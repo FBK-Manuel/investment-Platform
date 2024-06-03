@@ -5,10 +5,10 @@ function BlogIndex() {
         <div>
             <div className="" style={{ marginTop: "120px" }}>
                 <div className="w3-row-padding">
-                    <div className="w3-half">
+                    <div data-aos="fade-up" className="w3-half">
                         <h2><strong>INVET Blog</strong></h2>
                     </div>
-                    <div className="w3-half">
+                    <div data-aos="fade-up" className="w3-half">
                         <div className="">
                             <div className="search-container">
                                 <div className="">

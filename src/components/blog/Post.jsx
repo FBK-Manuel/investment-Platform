@@ -13,7 +13,7 @@ function Post() {
                 {/* <!-- Blog entries --> */}
                 <div className="w3-col l8 s12">
                     {/* <!-- Blog entry --> */}
-                    <div className="w3-card w3-round-large w3-margin card-color">
+                    <div data-aos="fade-up" className="w3-card w3-round-large w3-margin card-color">
                         <div>
                             <img src={image1} alt="image for blog" className="w3-image w3-round-large" width="100%" />
                         </div>
@@ -45,7 +45,7 @@ function Post() {
                     {/* <!-- Posts --> */}
                     <div className="w3-margin">
                         <div className="">
-                            <div className="w3-card-4 card-color w3-round-xlarge w3-pop-up">
+                            <div data-aos="fade-up" className="w3-card-4 card-color w3-round-xlarge w3-pop-up">
                                 <div className="w3-center w3-margin " >
                                     <div className="card-color w3-card-4 w3-round-xxlarge" style={{ paddingTop: "10px" }}>
                                         <img src={image3} alt="image" className="w3-image w3-round-xxlarge" width="100%" />

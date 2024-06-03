@@ -59,14 +59,14 @@ function FrequentlyAskQ() {
   return (
     <div>
       <div className="margin-top w3-container">
-        <div className="w3-center">
+        <div data-aos="fade-up" className="w3-center">
           <Title level={1} className="w3-margin-bottom">
             <b className="w3-text-white">Frequently Ask Questions</b>
             <p className="w3-small w3-text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dicta omnis accusantium sunt. Aspernatur beatae harum illum et impedit perferendis</p>
           </Title>
         </div>
         <div className="w3-row-padding">
-          <div className="w3-half">
+          <div data-aos="fade-up" className="w3-half">
             <div className="w3-margin-top">
               <div style={{ marginTop: "50px" }}>
                 <Collapse
@@ -83,7 +83,7 @@ function FrequentlyAskQ() {
               </div>
             </div>
           </div>
-          <div className="w3-half">
+          <div data-aos="fade-up" className="w3-half">
             <div className="w3-margin-top">
               <div style={{ marginTop: "50px" }}>
                 <Collapse

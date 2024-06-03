@@ -39,17 +39,17 @@ function Footer() {
     }
     return (
         <div>
-            <div style={{ marginTop: "100px" }}>
+            <div data-aos="fade-up" style={{ marginTop: "100px" }}>
                 <hr />
             </div>
             <div className="w3-container w3-content" style={{ maxWidth: "1200px" }}>
                 <div className="w3-margin-top w3-margin-bottom" >
                     <div className="w3-row-padding">
                         <div className="w3-quarter w3-container">
-                            <div className="w3-margin-top">
+                            <div data-aos="fade-up" className="w3-margin-top">
                                 <Link to='/'><img src={logo} alt='logo' className="" width="40%" height="40%" /></Link>
                                 <p className="w3-text-grey">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, dolor asperiores quas modi sint quaerat. Aliquid sapiente.</p>
-                                <div>
+                                <div data-aos="fade-up">
                                     <a href="#" target="_blank">
                                         <i className="fa fa-facebook-official w3-text-grey w3-margin-right w3-hover-text-white"></i>
                                     </a>
@@ -71,7 +71,7 @@ function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w3-quarter w3-container w3-margin-top">
+                        <div data-aos="fade-up" className="w3-quarter w3-container w3-margin-top">
                             <p className="w3-text-white w3-margin-top"><b>Menu</b></p>
                             <div className="w3-margin-top">
                                 <p className="w3-text-grey w3-hover-text-white"><Link className="w3-decoration" to="/">Home</Link></p>
@@ -86,7 +86,7 @@ function Footer() {
                                 <p className="w3-text-grey w3-hover-text-white"><Link className="w3-decoration" to="/signin">Sign In</Link></p>
                             </div>
                         </div>
-                        <div className="w3-quarter w3-container w3-margin-top">
+                        <div data-aos="fade-up" className="w3-quarter w3-container w3-margin-top">
                             <p className="w3-text-white w3-margin-top"><b>Utility Pages</b></p>
                             <div className="w3-margin-top">
                                 <p className="w3-text-grey w3-hover-text-white"><Link className="w3-decoration" to="#">Start Here</Link></p>
@@ -97,13 +97,13 @@ function Footer() {
                                 <p className="w3-text-grey w3-hover-text-white"><Link className="w3-decoration" to="#">Changelog</Link></p>
                             </div>
                         </div>
-                        <div className="w3-quarter w3-container w3-margin-top">
+                        <div data-aos="fade-up" className="w3-quarter w3-container w3-margin-top">
                             <p className="w3-text-white w3-margin-top"><b>Subscribe to our newsletter</b></p>
                             <div className="w3-margin-top">
                                 <p className="w3-text-grey">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 </p>
-                                <form action="" onSubmit={handleSubmit}>
+                                <form data-aos="fade-up" action="" onSubmit={handleSubmit}>
                                     <input
                                         className="w3-input w3-border w3-large w3-round-large card-color w3-border-grey"
                                         placeholder="Enter your email..."

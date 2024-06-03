@@ -38,13 +38,13 @@ function HowItWorks() {
     ];
     return (
         <div className="w3-container">
-            <div className="w3-center" style={{ marginTop: "250px", marginBottom: "70px" }}>
+            <div data-aos="fade-up" className="w3-center" style={{ marginTop: "250px", marginBottom: "70px" }}>
                 <Title level={3} className="w3-text-white">
                     <b>How it works</b>
                 </Title>
                 <p className="w3-small w3-text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ratione sit ut odit ex soluta dolores, <br /> nisi id pariatur saepe dolorum maxime. Ipsa sed fuga enim ad corporis molestiae possimus!</p>
             </div>
-            <div className="w3-row-padding w3-margin-top">
+            <div data-aos="fade-up" className="w3-row-padding  w3-margin-top">
                 <div className="w3-half">
                     <div className="w3-center w3-pop-up w3-card card-color w3-round-xlarge ">
                         <div className="w3-padding-16 w3-margin">
