@@ -4,9 +4,9 @@ import { Button, Typography } from "antd"
 
 function PriceCard() {
     const { Title } = Typography;
-    const cardImage1 = "/public/invet2.png";
-    const cardImage2 = "/public/R.png";
-    const cardImage3 = "/public/invet.png";
+    const cardImage1 = "/public/images/invet2.png";
+    const cardImage2 = "/public/images/R.png";
+    const cardImage3 = "/public/images/invet.png";
     return (
         <div>
             <div className="w3-margin-top">
